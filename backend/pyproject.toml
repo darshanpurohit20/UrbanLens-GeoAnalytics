@@ -1,0 +1,10 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "UrbanLens Geospatial Analytics Backend"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi[standard]>=0.128.1",
+  "numpy>=1.26.0",
+  "scikit-learn>=1.4.0",
+]
